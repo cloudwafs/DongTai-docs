@@ -1,0 +1,13 @@
+@import "furo.css";
+
+table.docutils div.line-block {
+    margin-left: 0;
+}
+
+article .align-center, article .align-default {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

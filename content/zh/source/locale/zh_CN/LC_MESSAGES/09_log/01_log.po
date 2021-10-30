@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, DongTai
+# This file is distributed under the same license as the DongTai-IAST
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DongTai-IAST \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 17:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/09_log/01_log.rst:2
+msgid "Log"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:3
+msgid "Release Date: 2021.10.23"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:6
+msgid "Management Server"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:7
+msgid "Add the message center"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:8
+msgid "Add agent threshold configuration"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:9
+msgid "Add agent registration time and startup time display"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:10
+msgid "Add Agent alias"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:11
+msgid "Bug fixs"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:14
+msgid "Java Agent"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:15
+msgid ""
+"Add JVM Parameter ``-Dproject.create=true`` or ``-Dproject.create=false``"
+" for auto create project in iast.io"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:16
+msgid "The agent pulls the CPU threshold for automatic fusing from the server"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:17
+msgid "Agent reports the time it takes to start"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:18
+msgid "Fix the bug of CPU usage shows negative numbers in Windows system"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:19
+msgid ""
+"Reduce static variables and methods, reduce the space occupied by "
+"MetaSpace"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:20
+msgid "Remove dockerfile"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:21
+msgid ""
+"Split maven module ``dongtai-servlet`` to ``dongtai-jakarta-api``,  "
+"``dongtai-servlet-api``, ``dong-spring-api```"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:22
+msgid "Close issue HXSecurity/DongTai#280"
+msgstr ""
+
+#: ../../source/09_log/01_log.rst:25
+msgid "Python Agent"
+msgstr ""
+

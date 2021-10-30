@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, DongTai
+# This file is distributed under the same license as the DongTai-IAST
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DongTai-IAST \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 17:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/02_start/01_overview.rst:2
+msgid "Overview"
+msgstr ""
+
+#: ../../source/02_start/01_overview.rst:5
+msgid "Step 1: Step up DongTai IAST Management Server"
+msgstr ""
+
+#: ../../source/02_start/01_overview.rst:7
+msgid ""
+"You can register an account for the ``SaaS Version`` or deploy your own "
+"locally."
+msgstr ""
+
+#: ../../source/02_start/01_overview.rst:9
+msgid "We provide both ``Docker`` and ``Kubernetes`` development solutions."
+msgstr ""
+
+msgid "dongtai_iast_saas"
+msgstr ""
+
+msgid "docker"
+msgstr ""
+
+msgid "kubernetes"
+msgstr ""
+
+#: ../../source/02_start/01_overview.rst:27
+msgid "Step 2: Install DongTai Agent to Your Web Application"
+msgstr ""
+
+#: ../../source/02_start/01_overview.rst:28
+msgid "Select a language and start the installation."
+msgstr ""
+
+msgid "java"
+msgstr ""
+
+msgid "python"
+msgstr ""
+
+#: ../../source/02_start/01_overview.rst:41
+msgid "Step 3: Start a New Security Testing"
+msgstr ""
+
+msgid "start"
+msgstr ""
+
+#: ../../source/02_start/01_overview.rst:47
+msgid "Click the icon for further information."
+msgstr ""
+

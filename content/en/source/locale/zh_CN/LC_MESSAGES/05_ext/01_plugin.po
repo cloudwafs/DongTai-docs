@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, DongTai
+# This file is distributed under the same license as the DongTai-IAST
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DongTai-IAST \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 17:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/05_ext/01_plugin.rst:2
+msgid "DongTai IAST Agent Plugin"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:5
+msgid "Plugin for Intellij IDEA"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:8
+msgid ""
+"The DongTai IAST plugin for IntelliJ IDEA integrates with the development"
+" environment. It is a lightweight plugin option for developers, which "
+"works in conjunction with DongTai IAST to add software security testing "
+"and remediation functionality from the plugin."
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:11
+msgid ""
+"During the development stage, it enables developers to have an actionable"
+" and easily understands report including vulnerability type, code "
+"location, and implement appropriate solutions."
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:14
+msgid "Requirements"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:15
+msgid "IntelliJ IDEA version: 2020.3 and above"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:18
+msgid "Installation"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:21
+msgid "Install from Marketplace"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:23
+msgid "Search ``DongTai IAST`` in :blue:`Plugins > Marketplace` and install it."
+msgstr ""
+
+msgid "plugins_marketPlace"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:30
+msgid "Offline Install"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:32
+msgid "Download |DongTai IDEA plugin|."
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:38
+msgid ""
+"Open IntelliJ IDEA and navigate to :blue:`Preferences > Plugin`. Selected"
+" :blue:`Install Plugin from Disk` and then install DongTai IAST IntelliJ "
+"IDEA plugin."
+msgstr ""
+
+msgid "plugin_download"
+msgstr ""
+
+msgid "plugin_download_disk"
+msgstr ""
+
+msgid "plugin_installs"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:52
+msgid "Configuring Plugin"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:54
+msgid ""
+"Navigate to DongTai IAST Mangement platform :blue:`Add Agent` to get "
+"``Token``."
+msgstr ""
+
+msgid "iast_token"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:59
+msgid ""
+"Navigate to :blue:`Tools > DongTai IAST Cloud Service Configuration` in "
+"IDEA and fill in the ``Token``."
+msgstr ""
+
+msgid "plugin_url_configs"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:66
+msgid ""
+"``agentUrl, url``:  The URL will auto-fill in if you using the DongTai "
+"IAST SaaS version. For self-deploy, you :red:`NEED` to fill in on your "
+"own."
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:69
+msgid "Run/Debug with the plugin"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:70
+msgid ""
+"There have two way to ``Run`` and ``Debug`` with DongTai IAST plugin as "
+"the graph below. Using ``Run`` and ``Debug`` to start an application "
+"security testing."
+msgstr ""
+
+msgid "plugin_run_debug_app"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:75
+msgid "You can find the security testing status message from the ``Console``."
+msgstr ""
+
+msgid "plugin_agent_add"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:80
+msgid "You can overview the result in real-time from the plugin."
+msgstr ""
+
+msgid "plugin_taint_details"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:86
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../source/05_ext/01_plugin.rst:87
+msgid ""
+"If the ``Event Log`` prompt an error message windows. Please check the "
+"``Token`` and try again."
+msgstr ""
+
+msgid "plugin_failure"
+msgstr ""
+

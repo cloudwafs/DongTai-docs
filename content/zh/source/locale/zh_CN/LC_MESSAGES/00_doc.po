@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, DongTai
+# This file is distributed under the same license as the DongTai-IAST
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DongTai-IAST \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 17:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/00_doc.rst:2
+msgid "About The Documentation"
+msgstr ""
+
+#: ../../source/00_doc.rst:4
+msgid "DongTai IAST documentation is composed of a few major sections:"
+msgstr ""
+
+#: ../../source/00_doc.rst:6
+msgid ""
+":doc:`Introduction <01_intro/index>`: This section covers a general "
+"overview of what DongTai IAST is."
+msgstr ""
+
+#: ../../source/00_doc.rst:8
+msgid ""
+":doc:`Getting Started <02_start/index>`: Quickly get started to use "
+"DongTai IAST include how to deploy and install."
+msgstr ""
+
+#: ../../source/00_doc.rst:10
+msgid ""
+":doc:`Configuration <03_config/index>`: Detailed configuration "
+"instructions for DongTai IAST."
+msgstr ""
+
+#: ../../source/00_doc.rst:12
+msgid ""
+":doc:`Operation <04_ops/index>`: General information on how to operate "
+"DongTai IAST."
+msgstr ""
+
+#: ../../source/00_doc.rst:14
+msgid ":doc:`Extension <05_ext/index>`: How to install DongTai IAST plugin."
+msgstr ""
+
+#: ../../source/00_doc.rst:16
+msgid ":doc:`API <06_api/index>`: Configuration guide of API."
+msgstr ""
+
+#: ../../source/00_doc.rst:18
+msgid ":doc:`Best Practice <07_bp/index>`: Sample Case."
+msgstr ""
+
+#: ../../source/00_doc.rst:20
+msgid ":doc:`FAQ <08_faq/index>`: Have questions? We have answers. Hopefully."
+msgstr ""
+
+#: ../../source/00_doc.rst:22
+msgid ":doc:`Release Notes <09_log/index>`: Release notes."
+msgstr ""
+

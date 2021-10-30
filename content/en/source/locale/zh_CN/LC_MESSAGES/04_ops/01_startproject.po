@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, DongTai
+# This file is distributed under the same license as the DongTai-IAST
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DongTai-IAST \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 17:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/04_ops/01_startproject.rst:2
+msgid "Start a New Security Testing"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:4
+msgid "Step 0: Add agent and ensure agent is running"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:5
+msgid "You can check the agent status at :blue:`Settings > Agent`."
+msgstr ""
+
+msgid "agent"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:11
+msgid "Step 1: Start a new application"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:12
+msgid ""
+"The agent can associate the application automatically and it can be found"
+" at :blue:`Applications`."
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:14
+msgid ""
+"You can check or modify the application information in the setting as the"
+" graph below."
+msgstr ""
+
+msgid "addapplication"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:20
+msgid "Step 2: Start a security testing"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:21
+msgid "Head to your web application and invoke traffic."
+msgstr ""
+
+msgid "invoke traffic"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:27
+msgid "Step 3: Check vulnerabilities detection"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:28
+msgid "All detected vulnerabilities will be show on the dashboard."
+msgstr ""
+
+msgid "check"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:33
+msgid "You can review the vulnerability and state it."
+msgstr ""
+
+msgid "overviewvul"
+msgstr ""
+
+#: ../../source/04_ops/01_startproject.rst:38
+msgid ""
+"Once the vulnerability was stated as `confirmed`, it will also be shown "
+"on the application overview."
+msgstr ""
+
+msgid "overviewapp"
+msgstr ""
+

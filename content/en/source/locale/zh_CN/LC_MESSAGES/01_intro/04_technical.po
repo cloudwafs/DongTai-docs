@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, DongTai
+# This file is distributed under the same license as the DongTai-IAST
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DongTai-IAST \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 17:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/01_intro/04_technical.rst:2
+msgid "Technical Specification"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:4
+msgid "Supported - DongTai IAST Management Server"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:6
+msgid "Environments"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:7
+msgid "Docker"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:8
+msgid "Kubernetes"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:11
+msgid "Supported - DongTai Agent"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:13
+msgid "Languages"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:14
+#: ../../source/01_intro/04_technical.rst:19
+msgid "Java"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:15
+msgid ":gray:`Python (Beta)`"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:18
+msgid "Platforms"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:21
+msgid "Any Java EE Server"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:23
+msgid "GlassFish"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:25
+msgid "Jetty"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:27
+msgid "Red Hat JBoss Enterprise Application Platforms"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:29
+msgid "Red Hat JBoss Web Server"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:31
+msgid "Resin"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:33
+msgid "Tomcat"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:35
+msgid "WebLogic"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:37
+msgid "WebSphere"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:39
+msgid "Python"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:41
+msgid "Django"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:43
+msgid "Flask"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:47
+msgid "Runtime/Frameworks"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:48
+msgid "Java/JVM"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:50
+msgid "Enterprise JavaBeans (EJB)"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:52
+msgid "Grails"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:54
+msgid "GWT"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:56
+msgid "Hibernate"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:58
+msgid "OWASP ESAPI"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:60
+msgid "Play"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:62
+msgid "Seam"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:64
+msgid "Spring"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:66
+msgid "SpringBoot"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:68
+msgid "Struts"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:70
+msgid "Vaadin"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:72
+msgid "Velocity"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:74
+msgid "Vert.x"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:76
+msgid "Java Runtime"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:78
+msgid "AdoptOpen JDK"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:80
+msgid "Amazon Corretto"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:82
+msgid "Eclipse OpenJ9"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:84
+msgid "IBM"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:86
+msgid "Oracle HotSpot"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:88
+msgid "Open JDK"
+msgstr ""
+
+#: ../../source/01_intro/04_technical.rst:90
+msgid "Red Hat Open JDK"
+msgstr ""
+

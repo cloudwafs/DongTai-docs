@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: dongtai-docs
+  name: dongtai-docs
+  namespace: iast-test
+spec:
+  selector:
+    matchLabels:
+      app: dongtai-docs
+  template:
+    metadata:
+      labels:
+        app: dongtai-docs
+    spec:
+      containers:
+      - image: dongtai/dongtai-docs:VERSION
+        imagePullPolicy: Always
+        name: dongtai-docs

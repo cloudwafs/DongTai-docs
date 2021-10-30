@@ -1,0 +1,6 @@
+recommonmark
+sphinx
+sphinx_tabs
+sphinx_copybutton
+furo
+sphinx-intl

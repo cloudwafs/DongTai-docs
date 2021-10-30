@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, DongTai
+# This file is distributed under the same license as the DongTai-IAST
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DongTai-IAST \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 17:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/02_start/03_agent.rst:2
+msgid "Agent Installation Guides"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:4
+msgid "Downloading Agent"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:5
+msgid ""
+"Login to DongTai IAST Management Server and navigate to :blue:`Add Agent`"
+" which locate at the upper-right of the site."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:7
+msgid "Select a language and dowload the agent."
+msgstr ""
+
+msgid "downloading agent"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:13
+msgid "Java Agent"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:15 ../../source/02_start/03_agent.rst:174
+msgid "Requirements"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:16 ../../source/02_start/03_agent.rst:175
+msgid ""
+"Check whether the service of installing the probe and the OPENAPI service"
+" are network interoperable."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:18 ../../source/02_start/03_agent.rst:177
+msgid ""
+"Ensure the service of installing DongTai Agent meet the requirement as "
+"below:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:20 ../../source/02_start/03_agent.rst:179
+msgid "Operating system: Windows/Linux/Unix"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:22
+msgid "JDK version: 1.6 and above"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:24
+msgid "Framework: Any"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:26
+msgid "Middleware: Any"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:29
+msgid "Install via Command Line"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:36
+msgid "Install via Configure"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:40
+msgid "**SpringBoot**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:42
+msgid ""
+"Move the ``agent.jar`` to the directory which allows read and write "
+"permission, such: :blue:`/tmp/`."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:44
+msgid "For Spring Boot application"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:46
+msgid ""
+"If the application is deployed by WAR, attach the agent to it by "
+"following the middleware you use."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:48
+msgid "If the application is deployed by JAR. Add the following arguments:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:54
+msgid "**Tomcat**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:56
+msgid ""
+"Navigate to Tomcat's bin directory and open the /catalina.sh file in text"
+" editor. Add the following settings at the first line of text:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:62
+msgid "**Jetty**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:64
+msgid "Add the following arguments:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:70
+msgid "**JBoss**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:72
+msgid "**JBoss AS 6**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:74
+msgid ""
+"Navigate to JBoss's bin directory and open the :blue:`/run.sh` file in "
+"text editor. Find :blue:`# Setup JBoss specific` properties in the text "
+"and add the following line below it:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:81
+msgid "**JBoss AS 7、JBoss Wildfly**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:83
+msgid ""
+"Navigate to JBoss's bin directory and modify the setting's value "
+"according to the server mode: ``standalone mode`` or ``domain mode``."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:85
+msgid "Standalone Mode"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:87
+msgid ""
+"Open :blue:`/standalone.sh` file in the text editor and find :blue:`# "
+"Display our environment` in the text."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:89
+msgid "Add the following line above it:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:114
+msgid "Domain Mode"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:97
+msgid "Settings of Server Group"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:106
+msgid "Settings of Server"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:117
+msgid "**Resin**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:119
+msgid ""
+"Navigate to Resin's conf directory and open :blue:`/cluster-default.xml` "
+"file with text editor. Find :blue:`server-default` in the text and add "
+"the following line below it:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:126
+msgid "**WebLogic**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:128
+msgid "**Via WebLogic Server Administration Console**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:130
+msgid ""
+"Navigate to :blue:`Domain Structure > Environment > Servers` and select "
+"the application server which is going to install the agent from the "
+"table."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:132
+msgid ""
+"Navigate to :blue:`Server Start` in :blue:`Summary of Servers` and add "
+"the following line into :blue:`Arguments`."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:138
+msgid "Restart service to apply the new settings"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:140
+msgid "**Via edit config.xml in WebLogic**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:142
+msgid ""
+"Navigate to the following WebLogis's directory "
+":blue:`/u01/oracle/weblogic/user_projects/domains/base_domain/config` and"
+" open :blue:`config.xml` file with text editor."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:144
+msgid ""
+"Find the sub-element of :blue:`<server-start>` which is "
+":blue:`<arguments>`, then add the following content into the sub-element:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:150
+msgid "**WebSphere**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:152
+msgid ""
+"From WebSphere Admin Console, navigate to :blue:`Server > Server Types > "
+"WebSphere Application Server`."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:154
+msgid ""
+"Select the application server which is going the agent and navigate to "
+":blue:`Server Infrastructure > Process definition`."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:156
+msgid "Then head to :blue:`Additional Properties > Java Virtual Machine`."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:158
+msgid ""
+"Find the :blue:`Generic JVM arguments`, then add the following line and "
+"save the change."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:165
+#: ../../source/02_start/03_agent.rst:251
+msgid ""
+"Keep the ``<application name>`` consistent with the ``application name`` "
+"that has created, otherwise `Demo` will be default."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:167
+#: ../../source/02_start/03_agent.rst:253
+msgid ""
+"The agent can associate the application automatically with adding "
+"``-Dproject.create=true``."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:169
+#: ../../source/02_start/03_agent.rst:255
+msgid ""
+"You also can manually associate it in application settings at the DongTai"
+" IAST Management Server to keep the parameters value blank."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:172
+msgid "Python Agent"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:181
+msgid "Python version：3.3 and above"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:183
+msgid "Interpreter：CPython"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:185
+msgid "Middleware：uWSGI"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:187
+msgid "Web Framework：Django"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:189
+msgid "Web Service：Django REST Framework"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:191
+msgid "Python Dependencies：psutil >= 5.8.0"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:194
+msgid "Install Agent"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:201
+msgid "Configure Agent"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:204
+msgid "**Django**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:206
+msgid ""
+"Navigate to Django application directories which is going to install the "
+"agent."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:208
+msgid "Modify the settings.py file and find MIDDLEWARE in the file."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:210
+msgid "Add the following line:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:219
+msgid "**Flask**"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:221
+msgid "Modify the <app.py> file and add the following line:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:233
+msgid "Restart Service"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:235
+msgid "Use ``dongtai-cli run <arguments>`` to start the application."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:237
+msgid "Example:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:258
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:261
+msgid "Start/Restart the Web Service and then access it with the browser."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:263
+msgid ""
+"Once registered, the agent should appear in the DongTai IAST Management "
+"Server :blue:`Settings > Agent` list."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:265
+msgid ""
+"If you do not see the agent on list within a few minutes, check the "
+"following:"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:267
+msgid "Check the agent.jar"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:269
+msgid ""
+"Execute the following command ``java -jar /temp/agent.jar`` to check it "
+"is working."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:271
+msgid "Please re-download the agent file and try again otherwise."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:273
+msgid ""
+"If the problem still persists, you can directly report the issue to us on"
+" |GitHub| and we will get you an answer back shortly."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:275
+msgid "Check the network connection"
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:277
+msgid "If the Web Service is unable to access to https://openapi.iast.io."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:279
+msgid "Please check the network connection and try again."
+msgstr ""
+
+#: ../../source/02_start/03_agent.rst:281
+msgid ""
+"Otherwise, you can directly report the issue to us on |GitHub| and we "
+"will get you an answer back shortly."
+msgstr ""
+
