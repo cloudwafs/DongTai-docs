@@ -1,6 +1,5 @@
-recommonmark
 sphinx
-sphinx_tabs
-sphinx_copybutton
-furo
+pydata-sphinx-theme
+sphinx-tabs
+sphinx-copybutton
 sphinx-intl
