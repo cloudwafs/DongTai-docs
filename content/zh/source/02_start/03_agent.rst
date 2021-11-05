@@ -11,7 +11,7 @@ Agent 安装指南
 
 Java Agent
 --------------
-安装需求
+安装环境
 ++++++++++++++++
 - 检查 Agent 所在应用程序系统与 ``DongTai OpenApi`` 之间的网络环境是可以互相连接。
 
@@ -167,7 +167,7 @@ Java Agent
 
 Python Agent
 ----------------
-安装需求
+安装环境
 ++++++++++++++++
 - 检查 Agent 所在应用程序系统与 ``DongTai OpenApi`` 之间的网络环境是可以互相连接。
 
@@ -240,39 +240,86 @@ Example:
     $ dongtai-cli run flask run ...
     # or
     $ dongtai-cli run uwsgi ... 
-
-.. tip:: 
+    
 
     - ``-Dproject.create=true`` 为可选参数，将自动创建项目。
 
     - ``-Dproject.name=<project name>`` 为可选参数， ``<application name>`` 与创建的项目名称保持一致， Agent 将自动关联至项目；默认值为 ``Demo Project``。    
     如果不配置上述参数，也可进入项目管理中进行手工绑定。
 
-排错
--------------------
-.. note::
 
-    重启您的应用服务器。
-    
-     Agent 安装后会显示在 DongTai IAST 管理服务中 :blue:`系统配置 > 引擎管理` 的引擎列表中.
-    
-    待 1 - 2 分钟刷新界面后，如果没有 Agent 没有显示在列表中，可按照如下步骤进行排查:
 
-    1. 检查 agent.jar 文件
-    
-      运行 ``java -jar /temp/agent.jar`` 查看是否反馈 agent.jar 的使用帮助。
-      
-      如果没有，说明 agent.jar 文件不正确，请重新下载然后检查 agent.jar 文件。
+排错指南
+-----------
 
-      如问题尚存在, 请前往 |GitHub| 给工程师提交 issue，我们会及时给您回复。
+.. tabs::
 
-    2. 检查网络情况
+   .. tab:: **Java**
+       
+       - **重启您的应用服务器**
 
-      在 Web 应用服务器中，检查是否可访问 https://openapi.iast.io.
-      
-      如果不可访问，说明网络不通，请解决网络访问的问题；
+       Agent 安装后会显示在 DongTai IAST 管理服务中 :blue:`系统配置 > 引擎管理` 的引擎列表中。
 
-      如果网络不存在问题，请前往 |GitHub| 给工程师提交 issue，我们会及时给您回复。
+       待 1 - 2 分钟刷新界面后，如果没有 Agent 没有显示在列表中，可按照如下步骤进行排查:
+       
+       **1. 检查 Agent 是否安装**
+
+       .. code-block:: bash
+           
+           # 运行查看是否反馈 agent.jar 的使用帮助
+           java -jar /temp/agent.jar
+        
+       .. tip::
+           
+           如果没有，说明 Agent 没有正确安装，请重新下载后再次安装。
+
+       **2. 检查网络情况**
+         
+       在 Web 应用服务器中，检查是否可访问 https://openapi.iast.io
+         
+       如果不可访问，说明网络不通，请解决网络访问的问题。
+
+       .. note::
+           
+           **如问题尚存在, 请前往** |GitHub| **给工程师提交 issue，我们会及时给您回复。**
+
+
+   .. tab:: **Python**
+       
+       - **重启您的应用服务器**
+
+       Agent 安装后会显示在 DongTai IAST 管理服务中 :blue:`系统配置 > 引擎管理` 的引擎列表中。
+
+       待 1 - 2 分钟刷新界面后，如果没有 Agent 没有显示在列表中，可按照如下步骤进行排查:
+       
+       **1. 检查 Agent 是否安装**
+
+       .. code-block:: bash
+           
+           # 运行查看是否反馈 dongtai-agent-python 的使用帮助
+           pip3 show dongtai_agent_python
+        
+       .. tip::
+           
+           如果没有，说明 Agent 没有正确安装，请重新下载后再次安装。
+
+       **2. 检测 Django/Flask 的中间件相关的修改是否已经增加**
+
+       如没有请按上方说明进行修改。
+
+       **3. 应用启动时有错误信息**
+
+       查看是否与 Agent 相关，若与 Agent 有关，请将错误信息回报给我们。
+
+       **4. 检查网络情况**
+         
+       在 Web 应用服务器中，检查是否可访问 https://openapi.iast.io
+         
+       如果不可访问，说明网络不通，请解决网络访问的问题。
+
+       .. note::
+           
+           **如问题尚存在, 请前往** |GitHub| **给工程师提交 issue，我们会及时给您回复。**
 
 
 .. |GitHub| raw:: html
