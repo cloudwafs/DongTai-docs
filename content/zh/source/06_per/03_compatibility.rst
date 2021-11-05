@@ -5,7 +5,6 @@
 
 .. list-table::
    :widths: 8 8
-   :header-rows: 1
    :width: 100%
 
    * - Agent 名称
