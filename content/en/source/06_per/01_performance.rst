@@ -7,11 +7,8 @@ Test Environment
 
 .. list-table::
    :widths: 4 20
-   :header-rows: 1
    :width: 100%
 
-   * - 
-     - 
    * - Agent
      - DongTai-java-agent v1.0.4
    * - Lab

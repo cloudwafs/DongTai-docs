@@ -13,7 +13,7 @@ Java Agent
 --------------
 Requirements
 ++++++++++++++++
-- Check whether the service of installing the probe and the OPENAPI service are network interoperable.
+- Check whether the service of installing the agent and the OPENAPI service are network interoperable.
 
 - Ensure the service of installing DongTai Agent meet the requirement as below:
 
@@ -172,7 +172,7 @@ Python Agent
 ----------------
 Requirements
 ++++++++++++++++
-- Check whether the service of installing the probe and the OPENAPI service are network interoperable.
+- Check whether the service of installing the agent and the OPENAPI service are network interoperable.
 
 - Ensure the service of installing DongTai Agent meet the requirement as below:
 
@@ -232,27 +232,37 @@ Configure Agent
 Restart Service
 +++++++++++++++++++++++++++++++++++++++++++
 
-Use ``dongtai-cli run <arguments>`` to start the application. 
+PHP Agent
+--------------
+Installation Environment
+++++++++++++++++
+- Check whether the service of installing the agent and the OPENAPI service are network interoperable.
 
-Example:
+- Ensure the service of installing DongTai Agent meet the requirement as below:
 
-.. code-block:: bash
+  -PHP version: 8.0.9 +
+
+.. tabs::
     
-    # Django
-    $ dongtai-cli run python manage.py runserver ...
-    # or
-    # Flask
-    $ dongtai-cli run flask run ...
-    # or
-    $ dongtai-cli run uwsgi ... 
+    .. tab:: **PHP**
+        
+        #. Manually decompress ``php-agent-test.tar.gz``, there are three files inside, namely: ``dongtai_php_agent.so``, ``test.json`` & ``run-tests.php ``
+            
+        #. Copy ``dongtai_php_agent.so`` to the extension in the PHP installation environment, for example: /usr/local/lib/php/pecl/20200930
+        
+        #. Find :blue:`php.ini`, use the command: ``php -i | grep php.ini``, add in :blue:`php.ini`:
+        
+        .. code-block:: bash
+            
+            extension_dir = "The path of dongtai_php_agent.so inside PHP", extension=dongtai_php_agent
 
-.. tip:: 
-       
-    Keep the ``<application name>`` consistent with the ``application name`` that has created, otherwise `Demo Project` will be default. 
-
-    The agent can associate the application automatically with adding ``-Dproject.create=true``.
-
-    You also can manually associate it in application settings at the DongTai IAST Server to keep the parameters value blank.
+        .. tip::
+            
+            - Execute the following command ``php -v`` and ``php -m`` to check the agent installation is successful
+            
+            - Through the terminal, enter ``php-agent-test``, execute the test result of ``php run-tests.php``.
+            
+        Lab: https://github.com/jinghao1/phpvul
 
 Troubleshooting
 -------------------

@@ -8,6 +8,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -29,6 +30,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -50,6 +52,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -71,6 +74,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -92,6 +96,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -113,6 +118,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -134,6 +140,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -155,6 +162,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -176,6 +184,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -197,6 +206,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -218,6 +228,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -239,6 +250,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -260,6 +272,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -281,6 +294,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -302,6 +316,7 @@ Parameter table
 .. list-table::
    :widths: 4 20
    :header-rows: 1
+   :width: 100%
 
    * - Attribute
      - Value
@@ -317,6 +332,50 @@ Parameter table
      - false
    * - Description
      - Enable/Disable to auto create application.
+
+- **project.version**
+
+.. list-table::
+   :widths: 4 20
+   :header-rows: 1
+   :width: 100%
+   
+   * - Attribute
+     - Value
+   * - Activation
+     - Add ``-Dproject.version=<v1.1.0>`` and then restart the application service
+   * - Parameter Type
+     - String
+   * - Source
+     - Settings file
+   * - Variables
+     - Application version
+   * - Default
+     - v1.0
+   * - Description
+     - Enable to auto create application version.
+
+- **response.length**
+
+.. list-table::
+   :widths: 4 20
+   :header-rows: 1
+   :width: 100%
+   
+   * - Attribute
+     - Value
+   * - Activation
+     - Add ``-Dresponse.length=<1000>`` and then restart the application service
+   * - Parameter Type
+     - String
+   * - Source
+     - Settings file
+   * - Variables
+     - Integer > 0
+   * - Default
+     - None
+   * - Description
+     - Modify the response length from HTTP collected by Agent.
 
 Use Case
 +++++++++

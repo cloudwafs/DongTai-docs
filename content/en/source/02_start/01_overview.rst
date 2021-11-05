@@ -1,6 +1,8 @@
 Overview
 ========
 
+*Click the icon for further information.*
+
 Step 1: Step up DongTai IAST Server
 ------------------------------------------------
 
@@ -37,6 +39,11 @@ Select a language and start the installation.
   :scale: 25%
   :target: 03_agent.html#python-agent
 
+.. image:: ../_static/02_start/php.png
+  :alt: php
+  :scale: 25%
+  :target: 03_agent.html#php-agent
+
 Step 3: Start a New Security Testing
 ----------------------------------------------------------
 .. image:: ../_static/02_start/start.png
@@ -44,4 +51,3 @@ Step 3: Start a New Security Testing
   :scale: 25%
   :target: ../04_ops/01_startproject.html#step-0-add-agent-and-ensure-agent-is-running
 
-.. tip:: Click the icon for further information.
