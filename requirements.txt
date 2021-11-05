@@ -3,3 +3,4 @@ pydata-sphinx-theme
 sphinx-tabs
 sphinx-copybutton
 sphinx-intl
+recommonmark
