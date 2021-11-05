@@ -11,7 +11,6 @@ DongTai-IAST Documentation
    :glob:
    :titlesonly:
    
-   00_doc
    01_intro/index
    02_start/index
    03_config/index
