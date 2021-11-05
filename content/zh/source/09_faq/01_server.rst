@@ -19,7 +19,7 @@ Server
 
 - **本地安装对服务器资源有什么要求吗？**
 
-建议至少 4 Core 8 GB, :doc:`请参考部署指南 <../02_start/02_deploy>` 中各部署方式之系统需求
+  建议至少 4 Core 8 GB, :doc:`请参考部署指南 <../02_start/02_deploy>` 中各部署方式之系统需求
 
 - **dongtai-openapi 从哪里获取？**
 
@@ -33,7 +33,7 @@ Server
 
 - **如何部署多个openAPI服务节点？(基于docker-compose方式)**
 
-多起几个 openapi 服务，端口映射出来，前面挂一下 nginx，配置负载均衡
+  多起几个 openapi 服务，端口映射出来，前面挂一下 nginx，配置负载均衡
 
 - **数据库验证码无法显示?**
 

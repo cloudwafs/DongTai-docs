@@ -1,4 +1,4 @@
-About The Documentation 
+About
 ============================
 
 DongTai IAST documentation is composed of a few major sections:
@@ -17,7 +17,7 @@ DongTai IAST documentation is composed of a few major sections:
 
 :doc:`API <07_api/index>`: Configuration guide of API.
 
-:doc:`Best Practice <08_bp/index>`: Sample Case.
+:doc:`Best Practice <08_bp/index>`: The best practice of Dongtai IAST.
 
 :doc:`FAQ <09_faq/index>`: Have questions? We have answers. Hopefully.
 

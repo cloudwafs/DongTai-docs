@@ -18,6 +18,7 @@ Initial Configuration Custom Database
     wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20210918.sql
     wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20211009.sql
     wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20211022.sql
+    wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20211105.sql
     
     # Executing the SQL file above by order via MySQL command to upgrade the database.
     mysql -u root -p <passwor> -D <database> < /docker-entrypoint-initdb.d/db.sql
@@ -63,7 +64,7 @@ Step 3: Update Database
 
       docker exec -it dongtai-iast_dongtai-mysql_1 /bin/bash
 
-- Navigating to :blue:`/docker-entrypoint-initdb.d`, and then download the SQL update file: :blue:`update-20211022.sql`
+- Navigating to :blue:`/docker-entrypoint-initdb.d`, and then download the SQL update file: :blue:`update-20211105.sql`
 
   .. code-block:: bash
 
