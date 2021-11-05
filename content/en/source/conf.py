@@ -53,7 +53,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/<your-org>/<your-repo>",
+            "url": "https://github.com/HXSecurity/DongTai",
             "icon": "fab fa-github-square",
         },
         {

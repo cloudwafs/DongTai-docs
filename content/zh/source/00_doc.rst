@@ -11,7 +11,7 @@
 
 :doc:`用户操作 <04_ops/index>`: 关于如何操作洞态 IAST
 
-:doc:`扩展 <05_ext/index>`: 如何安装洞态 IAST 插件
+:doc:`插件 <05_ext/index>`: 如何安装洞态 IAST 插件
 
 :doc:`性能与适配性 <06_per/index>`: 洞态 IAST 性能测试报告
 
