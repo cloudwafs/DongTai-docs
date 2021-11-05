@@ -7,11 +7,8 @@ Java 代理
 
 .. list-table::
    :widths: 4 20
-   :header-rows: 1
    :width: 100%
 
-   * - 
-     - 
    * - 代理版本
      - DongTai-java-agent v1.0.4
    * - 靶场

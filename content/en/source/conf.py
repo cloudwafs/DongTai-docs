@@ -22,7 +22,7 @@ copyright = '2021, DongTai'
 author = 'DongTai'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.6'
+release = '1.1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -45,17 +45,44 @@ exclude_patterns = []
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
-html_theme = 'furo'
+html_logo = "_static/洞态@2x.png"
+html_static_path = ['_static']
+html_css_files=['css/s5defs-roles.css','table.css']
+html_theme = 'pydata_sphinx_theme'
+html_theme_options = {
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/<your-org>/<your-repo>",
+            "icon": "fab fa-github-square",
+        },
+        {
+            "name": "中文",
+            "url": "https://doc2.dongtai.io/zh",
+            "icon": "fas fa-globe-asia",
+        },
+        {
+            "name": "英文",
+            "url": "https://doc2.dongtai.io/en",
+            "icon": "fas fa-globe-europe",
+        },
+    ],"use_edit_page_button": True,
+    "show_prev_next": False,
+}
+
+html_context = {
+    "github_url": "https://github.com", # or your GitHub Enterprise interprise
+    "github_user": "HXSecurity",
+    "github_repo": "DongTai-docs",
+    "github_version": "v1.1.0",
+    "doc_path": "content/zh/source/",
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-html_css_files=['css/s5defs-roles.css']
 
 rst_prolog = """.. include:: <s5defs.txt>"""
 
 locale_dirs = ['../build/locale/']   # path is example but recommended.
-gettext_compact = False  
-
+gettext_compact = False
