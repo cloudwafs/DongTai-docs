@@ -1,5 +1,5 @@
 sphinx
-furo
+pydata-sphinx-theme
 sphinx-tabs
 sphinx-copybutton
 sphinx-intl

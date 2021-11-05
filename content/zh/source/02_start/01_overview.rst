@@ -1,6 +1,8 @@
 概述
 ========
 
+*详情请点击图标。*
+
 Step 1: 部署洞态 IAST Server 端
 ------------------------------------------------
 
@@ -43,5 +45,3 @@ Step 3: 开始一个新的检测项目
   :alt: start
   :scale: 25%
   :target: ../04_ops/01_startproject.html#step-0-add-agent-and-ensure-agent-is-running
-
-.. tip:: 详情请点击图标.

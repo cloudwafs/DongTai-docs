@@ -275,7 +275,7 @@ Example:
 
        **2. 检查网络情况**
          
-       在 Web 应用服务器中，检查是否可访问 https://openapi.iast.io
+       在 Web 应用服务器中，检查是否可访问 **dongtai-openapi**
          
        如果不可访问，说明网络不通，请解决网络访问的问题。
 
@@ -313,7 +313,7 @@ Example:
 
        **4. 检查网络情况**
          
-       在 Web 应用服务器中，检查是否可访问 https://openapi.iast.io
+       在 Web 应用服务器中，检查是否可访问 **dongtai-openapi**
          
        如果不可访问，说明网络不通，请解决网络访问的问题。
 

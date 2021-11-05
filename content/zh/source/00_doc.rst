@@ -17,7 +17,7 @@
 
 :doc:`API <07_api/index>`: API 配置指南
 
-:doc:`最佳实践 <08_bp/index>`: 案列
+:doc:`最佳实践 <08_bp/index>`: 洞态 IAST 的最佳落地实践
 
 :doc:`常见问题解答 <09_faq/index>`: 此处提供常见问题解答
 
