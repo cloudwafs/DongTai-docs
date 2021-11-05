@@ -39,6 +39,11 @@ Step 2: 在 Web 应用程序上安装代理
   :scale: 25%
   :target: 03_agent.html#python-agent
 
+.. image:: ../_static/02_start/php.png
+  :alt: php
+  :scale: 25%
+  :target: 03_agent.html#php-agent
+
 Step 3: 开始一个新的检测项目
 ----------------------------------------------------------
 .. image:: ../_static/02_start/start.png

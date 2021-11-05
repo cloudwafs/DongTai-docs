@@ -192,10 +192,10 @@ Python Agent
 - 找到第一步下载的压缩文件执行以下命令
 
 .. code-block::
+    
+    pip3 install ./dongtai-agent-python.tar.gz
 
-   pip3 install ./dongtai-agent-python.tar.gz
-
-- 项目配置
+项目配置
 +++++++++++++++++++++++++++++++++++++++++++
 
 .. tabs::
@@ -222,32 +222,38 @@ Python Agent
            # Add agent
            from dongtai_agent_python.middlewares.flask_middleware import AgentMiddleware
            app.wsgi_app = AgentMiddleware(app.wsgi_app, app)
-           
 
-重启服务器
-+++++++++++++++++++++++++++++++++++++++++++
+PHP Agent
+--------------
+安装环境
+++++++++++++++++
+- 检查 Agent 所在应用程序系统与 ``DongTai OpenApi`` 之间的网络环境是可以互相连接。
 
-使用命令 ``dongtai-cli run <启动参数>`` 启动项目, 启动参数为程序原有的启动命令
+- 确认 Agent 端所在环境在我们的支持列表中：
 
-Example:
+  - PHP 版本：8.0.9 +
 
-.. code-block:: bash
+.. tabs::
     
-    # Django
-    $ dongtai-cli run python manage.py runserver ...
-    # or
-    # Flask
-    $ dongtai-cli run flask run ...
-    # or
-    $ dongtai-cli run uwsgi ... 
-    
+    .. tab:: **PHP**
+        
+        #. 手动解压缩 ``php-agent-test.tar.gz``，里面有三个文件，分别是： ``dongtai_php_agent.so``、 ``test.json`` & ``run-tests.php``
+            
+        #. 复制 ``dongtai_php_agent.so`` 到 PHP 安装环境中的 extension 中，例如：/usr/local/lib/php/pecl/20200930
+        
+        #. 找到 :blue:`php.ini`，使用命令： ``php -i | grep php.ini``，在 :blue:`php.ini` 添加：
+        
+        .. code-block:: bash
+            
+            extension_dir = "dongtai_php_agent.so 在 PHP 内部的路径" , extension=dongtai_php_agent
 
-    - ``-Dproject.create=true`` 为可选参数，将自动创建项目。
-
-    - ``-Dproject.name=<project name>`` 为可选参数， ``<application name>`` 与创建的项目名称保持一致， Agent 将自动关联至项目；默认值为 ``Demo Project``。    
-    如果不配置上述参数，也可进入项目管理中进行手工绑定。
-
-
+        .. tip::
+            
+            - 执行 ``php –v``，正常显示 PHP 版本信息, ``php –m`` 查看会有 dongtai_php_agent，即安装成功
+            
+            - 通过终端，进入 ``php-agent-test``，执行 ``php run-tests.php`` 测试结果，也可以进入靶场测试
+            
+        靶场地址：https://github.com/jinghao1/phpvul
 
 排错指南
 -----------
