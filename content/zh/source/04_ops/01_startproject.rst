@@ -4,9 +4,7 @@
 ++++++++++++++++++++++++++++++++++++++++++++++
 1. 可在 :blue:`系统配置 > 引擎管理` 中的引擎列表中查询 Agent 状态。
 
-.. tip:: 
-  
-  :doc:`请参阅快速开始概述 <../02_start/01_overview>`
+  :doc:`请参阅快速开始 > 概述 来部署 Server 及安装 Agent <../02_start/01_overview>`
 
 .. image:: ../_static/04_ops/addapp00.png
   :alt: agent
