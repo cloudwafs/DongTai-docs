@@ -34,7 +34,7 @@ jobs:
             dongtai/dongtai-docs:0.0.${{github.run_number}}
             dongtai/dongtai-docs:latest
 
-      - name: deploy dongtai-docs to test
+      - name: Deploy dongtai-docs
         uses: wahyd4/kubectl-helm-action@master
         env:
           KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_TEST_DATA }}
