@@ -233,7 +233,7 @@ Agent 配置
    * - 属性
      - 值
    * - 生效方式
-     - 启动时添加 ``-Diast.proxy.enable=<true or false>`` 
+     - 启动时添加 ``-Diast.dump.class.enable=<true or false>`` 
    * - 参数类型
      - Boolean
    * - 来源
