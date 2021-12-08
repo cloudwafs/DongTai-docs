@@ -19,7 +19,9 @@
     wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20211009.sql
     wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20211022.sql
     wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20211105.sql
-
+    wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20211120-release-1.1.1.sql
+    wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20211123-release-1.1.2.sql
+    wget https://huoqi-public.oss-cn-beijing.aliyuncs.com/iast/sql/update-20211203-release-1.1.3.sql
     # 通过 MySQL 指令执行数据库文件更新
     mysql -u root -p <passwor> -D <database> < /docker-entrypoint-initdb.d/db.sql
     mysql -u root -p <passwor> -D <database> < /docker-entrypoint-initdb.d/rule.sql
